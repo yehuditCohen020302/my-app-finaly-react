@@ -23,7 +23,6 @@ export function login() {
                 alert("welcome back" + " " + data.fullName + "😊");
                 sessionStorage.setItem("user", JSON.stringify(data))
                 console.log(data);
-                //  window.location.href = "passPage.html";
             }
             else {
                 alert("לא נמצא משתמש בשם זה:");
